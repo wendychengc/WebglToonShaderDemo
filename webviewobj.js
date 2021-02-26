@@ -126,7 +126,7 @@ animate();
 let myOBJLoader = new OBJLoader();
 myOBJLoader.load('./models/pikachiu-obj/pikachiu.obj', function (obj) {
     obj.scale.set(15, 15, 15); //放大obj组对象
-    const textureBase = new THREE.TextureLoader().load("/models/pikachiu-obj/initialShadingGroup_Base_Color.png");
+    const textureBase = new THREE.TextureLoader().load("./models/pikachiu-obj/initialShadingGroup_Base_Color.png");
     textureBase.magFilter = THREE.NearestFilter;
     textureBase.minFilter = THREE.NearestFilter;
 
