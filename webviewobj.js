@@ -1,6 +1,6 @@
-import * as THREE from '../three/three.module.js';
-import { OrbitControls } from '../three/orbitcontrols.js';
-import { OBJLoader } from '../three/OBJLoader.js';
+import * as THREE from './three/three.module.js';
+import { OrbitControls } from './three/orbitcontrols.js';
+import { OBJLoader } from './three/OBJLoader.js';
 import { GUI } from './three/dat.gui.module.js';
 import {
     vertexShaderToon, fragShaderToon,
